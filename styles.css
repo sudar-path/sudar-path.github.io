@@ -141,8 +141,6 @@ h1 em { color: var(--green); font-weight: 400; }
 .portrait { margin-top: 4px; }
 .portrait-frame { padding: 9px; border: 1px solid #d3ddcf; border-radius: 22px; background: var(--soft-green); }
 .portrait img { width: 100%; height: auto; border-radius: 15px; aspect-ratio: 1; object-fit: cover; }
-.portrait figcaption { display: flex; flex-direction: column; gap: 2px; margin-top: 15px; font-size: .77rem; }
-.portrait-caption { color: var(--muted); font-size: .7rem; }
 
 .section-band { background: var(--white); border-block: 1px solid var(--line); }
 .section-layout { display: grid; grid-template-columns: 320px minmax(0, 1fr); gap: 80px; padding-block: 72px; }
@@ -222,7 +220,6 @@ h2 { margin-top: 14px; font-size: 2.1rem; line-height: 1.25; letter-spacing: -.0
     .intro { font-size: 1rem; }
     .hero-actions { gap: 22px; }
     .portrait { width: min(260px, 100%); }
-    .portrait figcaption { margin-top: 10px; }
     .section-layout { grid-template-columns: minmax(0, 1fr); gap: 26px; padding-block: 48px; }
     h2 { font-size: 1.9rem; }
     .section-heading > p:last-child:not(.eyebrow) { max-width: 420px; }
